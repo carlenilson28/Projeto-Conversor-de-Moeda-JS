@@ -1,0 +1,68 @@
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVASCRIPT</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <img class="logo-img" src="./assets/logo.gif" alt="Logo">
+    
+<div class="caixa-principal">
+
+    <section>
+        <label id="converter">Converter <b>de</b>
+            <select>
+                <option>R$ Real</option>
+                <option>US$ Dolar Americano</option>
+                <option>€ Euro</option>
+            </select>
+        </label>
+
+        <label class="currency-value">Converter <b>para</b>
+            <select>
+                <option valeu="real" >R$ Real</option>
+                <option valeu="dolar" >US$ Dolar Americano</option>
+                <option valeu="euro" >€ Euro</option>
+            </select>
+        </label>
+        
+        <label id="valor">Valor</label>
+        <input class="input-currency" placeholder="R$1.000,00">
+
+        <button class="convert-button">Converter</button>
+    </section>
+
+    <main>
+        <div class="currency-box">
+            <img class="converter-img" src="./assets/brazil.jpg" alt="logo-moeda-a-converter">
+            <p class="currency">Real</p>
+            <p class="currency-valeu-to-convert">R$ 0,00</p>
+        </div>
+
+        <img class="seta-img" src="./assets/arrow.jpg" alt="seta">
+
+        <div class="currency-box">
+            <img class="convertida-img" src="./assets/dolar.jpg" alt="logo-moeda-covertida">
+            <p class="currency">Dolar</p>
+            <p class="currency-valeu">US$ 0,00</p>
+        </div>
+    </main>
+
+</div>
+
+
+    
+</body>
+
+<script src="./script.js"></script>
+
+</html>
