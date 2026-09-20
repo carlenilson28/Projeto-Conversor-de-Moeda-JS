@@ -1,6 +1,12 @@
 
 # 💰 Simple Currency Converter
 
+<p align="center">
+<img src="assets/conversor-dolar.png" alt="Projeto conversor e moeda"
+
+</p>
+![Screenshot do Conversor de Moedas](assets/conversor-dolar.png)
+
 Este é um projeto de conversor de moedas simples e interativo, desenvolvido para praticar e consolidar conhecimentos em HTML, CSS e JavaScript puro (Vanilla JS). Ele permite ao usuário converter valores entre diferentes moedas em tempo real.
 
 ---
