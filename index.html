@@ -1,66 +1,67 @@
-
-
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JAVASCRIPT</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <img class="logo-img" src="./assets/logo.gif" alt="Logo" />
 
-    <img class="logo-img" src="./assets/logo.gif" alt="Logo">
-    
-<div class="caixa-principal">
-
-    <section>
-        <label id="converter">Converter <b>de</b>
-            <select>
-                <option>R$ Real</option>
-            </select>
+    <div class="caixa-principal">
+      <section>
+        <label id="converter"
+          >Converter <b>de</b>
+          <select class="first-currency-select">
+            <option value="real">R$ Real</option>
+            <option value="dolar">US$ Dolar Americano</option>
+            <option value="euro">€ Euro</option>
+            <option value="libra">£ Libra</option>
+            <option value="bitcoin">Bitcoin</option>
+          </select>
         </label>
 
         <label>
-            Converter <b>para</b>
-            <select class="currency-select">
-                <option value="dolar" >US$ Dolar Americano</option>
-                <option value="euro" >€ Euro</option>
-            </select>
+          Converter <b>para</b>
+          <select class="second-currency-select">
+            <option value="real">R$ Real</option>
+            <option value="dolar">US$ Dolar Americano</option>
+            <option value="euro">€ Euro</option>
+            <option value="libra">£ Libra</option>
+            <option value="bitcoin">Bitcoin</option>
+          </select>
         </label>
-        
+
         <label id="valor">Valor</label>
-        <input class="input-currency" placeholder="R$1.000,00">
+        <input class="input-currency" placeholder="R$1.000,00" />
 
         <button class="convert-button">Converter</button>
-    </section>
+      </section>
 
-    <main>
-        <div class="currency-box">
-            <img class="converter-img" src="./assets/brazil.jpg" alt="logo-moeda-a-converter">
-            <p class="currency">Real</p>
-            <p class="currency-value-to-convert">R$ 0,00</p>
+      <main>
+        <div class="currency-box-1">
+          <img class="converter-img" src="./assets/brazil.jpg" alt="logo-moeda-a-converter" />
+          <p class="currency-1">Real</p>
+          <p class="currency-value-to-convert">R$ 0,00</p>
         </div>
 
-        <img class="seta-img" src="./assets/arrow.jpg" alt="seta">
+        <img class="seta-img" src="./assets/arrow.jpg" alt="seta" />
 
-        <div class="currency-box">
-            <img class="currency-img" src="./assets/dolar.jpg" alt="logo-moeda-covertida">
-            <p class="currency" id="currency-name" >Dólar Americano</p>
-            <p class="currency-value">US$ 0,00</p>
+        <div class="currency-box-2">
+          <img class="currency-img" src="./assets/dolar.jpg" alt="logo-moeda-covertida" />
+          <p class="currency-2" id="currency-name">Dólar Americano</p>
+          <p class="currency-value">US$ 0,00</p>
         </div>
-    </main>
+      </main>
+    </div>
+  </body>
 
-</div>
-
-
-    
-</body>
-
-<script src="./script.js"></script>
-
+  <script src="./script.js"></script>
 </html>

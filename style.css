@@ -56,6 +56,7 @@ button{
   font-size: 18px;
   font-weight: 700px;
   cursor: pointer;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 button:hover{
   opacity: 0.8;
@@ -80,14 +81,14 @@ main{
 }
 
 
-.currency-box{
+.currency-box1, .currency-box-2{
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 4px;
 }
 
-.currency{
+.currency-1, .currency-2{
   color: #777777;
   font-size: 14px;
 
